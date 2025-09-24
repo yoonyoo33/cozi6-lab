@@ -1,0 +1,1011 @@
+PS C:\Users\YOONYOO> Python 250923_upgradejournal.py
+no 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 48, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 9, in make_pdf_book
+    files = sorted([os.path.join(folder, f) for f in os.listdir(folder) if f.endswith(".md")])
+                                                     ~~~~~~~~~~^^^^^^^^
+FileNotFoundError: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'journals'
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+⚠️ 변환할 일기 파일이 없습니다.
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 51, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 37, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text       
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+RuntimeError: Pandoc died with exitcode "47" during conversion: [WARNING] Could not fetch resource cover.jppdflatex not found. Please select a different --pdf-engine or install pdflatex
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> ^C
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_sumi_dot
+umi_dot': [Errno 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_sumi_dot
+umi_dot': [Errno 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python 250923_sumi_dot.py
+sumi_dot_soft.jpg 저장 완료!
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python 250923_sumi_dot.py
+sumi_dot_soft.jpg 저장 완료!
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python Python 250923_upgradejournal.py
+C:\Users\YOONYOO\anaconda3\python.exe: can't open file 'C:\\Users\\YOONYOO\\Desktop\\파이썬꼬꼬마\\Python': [Errno 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python Python 250923_upgradejournal.py
+C:\Users\YOONYOO\anaconda3\python.exe: can't open file 'C:\\Users\\YOONYOO\\Desktop\\파이썬꼬꼬마\\Python': [Errno 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 52, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 38, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input    
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "47" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+pdflatex not found. Please select a different --pdf-engine or install pdflatex
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> ^C
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 52, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 38, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text       
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input    
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "47" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+[WARNING] Could not fetch resource cover.jpg: replacing image with description
+pdflatex not found. Please select a different --pdf-engine or install pdflatex
+PS C:\Users\YOONYOO> pdflatex --version
+MiKTeX-pdfTeX 4.18 (MiKTeX 24.1)
+© 1982 D. E. Knuth, © 1996-2023 Hàn Thế Thành
+TeX is a trademark of the American Mathematical Society.
+using bzip2 version 1.0.8, 13-Jul-2019
+compiled with curl version 8.4.0; using libcurl/8.4.0 Schannel     
+compiled with liblzma version 50040002; using 50040002
+compiled with libpng version 1.6.39; using 1.6.39
+compiled with libressl version LibreSSL 3.8.1; using LibreSSL 3.8.1
+compiled with MiKTeX Application Framework version 4.8; using 4.8
+compiled with MiKTeX Core version 4.23; using 4.23
+compiled with MiKTeX Archive Extractor version 4.1; using 4.1
+compiled with MiKTeX Package Manager version 4.10; using 4.10
+compiled with uriparser version 0.9.7
+compiled with zlib version 1.2.13; using 1.2.13
+PS C:\Users\YOONYOO> cd("C:\Users\YOONYOO\Desktop\파이썬꼬꼬마")
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Pyton 250923_upgradejournal.py
+Pyton : 'Pyton' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다.    
+ 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:1
++ Pyton 250923_upgradejournal.py
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Pyton:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 52, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 38, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text        
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input     
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+[WARNING] Could not fetch resource cover.jpg: replacing image with description
+Error producing PDF.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name:
+! Emergency stop.
+<read *>
+
+l.115 \RequirePackage{letltxmacro}[2008/06/13]
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 52, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 38, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text        
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input     
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+[WARNING] Could not fetch resource cover.jpg: replacing image with description
+! LaTeX Error: Unicode character 🍃 (U+1F343)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.58 \section{🍃살랑, 살랑🍃}
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> ^C
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 52, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 38, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text        
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+Error producing PDF.
+! LaTeX Error: Unicode character 🍃 (U+1F343)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.58 \section{🍃살랑, 살랑🍃}
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 53, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 39, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text        
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input     
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: [WARNING] Could not fetch resource cover.jpg: replacing image with description
+! LaTeX Error: Unicode character 살 (U+C0B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.73 \section{살랑, 살랑}
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> ^C
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 55, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 41, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input     
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Unicode character 살 (U+C0B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.73 \section{살랑, 살랑}
+
+PS C:\Users\YOONYOO> cd("C:\Users\YOONYOO\Desktop\파이썬꼬꼬마")
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> exit()
+위치 줄:1 문자:6
++ exit()
++      ~
+'(' 뒤에 식이 와야 합니다.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedExpression
+ 
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마>
+ *  History restored 
+
+PS C:\Users\YOONYOO> cd("C:\Users\YOONYOO\Desktop\파이썬꼬꼬마")
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python test_pdf.py
+🖨️ PDF 변환 중...
+✅ PDF 변환 완료! 'test.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 82.95초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중... 
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 353.50it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 66, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 48, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input      
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: 
+Sorry, but miktex-makemf did not succeed.
+
+The log file hopefully contains the information to get MiKTeX going again:
+
+  C:\Users\YOONYOO\AppData\Local\MiKTeX\miktex\log\miktex-makemf.log
+Couldn't open `NanumGoth.cfg'
+
+hbf2gf (CJK ver. 4.8.4)
+
+
+Sorry, but miktex-maketfm did not succeed.
+
+
+  C:\Users\YOONYOO\AppData\Local\MiKTeX\miktex\log\miktex-maketfm.log
+Error producing PDF.
+! Package fontspec Error: The font "NanumGothic" cannot be found.
+
+For immediate help type H <return>.
+ ...
+
+l.23 \fi
+
+PS C:\Users\YOONYOO> cd("C:\Users\YOONYOO\Desktop\파이썬꼬꼬마")
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> exit()
+위치 줄:1 문자:6
++ exit()
++      ~
+'(' 뒤에 식이 와야 합니다.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedExpression
+ 
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마>
+ *  History restored 
+
+PS C:\Users\YOONYOO> cd("C:\Users\YOONYOO\Desktop\파이썬꼬꼬마")
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python test_pdf.py
+🖨️ PDF 변환 중...
+✅ PDF 변환 완료! 'test.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 82.95초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중... 
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 353.50it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 66, in <module>
+    make_pdf_book()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250923_upgradejournal.py", line 48, in make_pdf_book
+    pypandoc.convert_text(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        merged_content,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        ]
+        ^
+    )
+    ^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 94, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+                          outputfile=outputfile, filters=filters,
+                          verify_format=verify_format, sandbox=sandbox,
+                          cworkdir=cworkdir)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\pypandoc\__init__.py", line 472, in _convert_input      
+    raise RuntimeError(
+        'Pandoc died with exitcode "%s" during conversion: %s' % (p.returncode, stderr)
+    )
+RuntimeError: Pandoc died with exitcode "43" during conversion: 
+Sorry, but miktex-makemf did not succeed.
+
+The log file hopefully contains the information to get MiKTeX going again:
+
+  C:\Users\YOONYOO\AppData\Local\MiKTeX\miktex\log\miktex-makemf.log
+Couldn't open `NanumGoth.cfg'
+
+hbf2gf (CJK ver. 4.8.4)
+
+
+Sorry, but miktex-maketfm did not succeed.
+
+
+  C:\Users\YOONYOO\AppData\Local\MiKTeX\miktex\log\miktex-maketfm.log
+Error producing PDF.
+! Package fontspec Error: The font "NanumGothic" cannot be found.
+
+For immediate help type H <return>.
+ ...
+
+l.23 \fi
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중...
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 655.13it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 폴 (U+D3F4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 더 (U+B354) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 목 (U+BAA9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 록 (U+B85D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 용 (U+C6A9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 스 (U+C2A4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 크 (U+D06C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 립 (U+B9BD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 트 (U+D2B8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 실 (U+C2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 행 (U+D589) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 할 (U+D560) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 있 (U+C788) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 름 (U+B984) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 포 (U+D3EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 된 (U+B41C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 우 (U+C6B0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 올 (U+C62C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 바 (U+BC14) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 검 (U+AC80) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 증 (U+C99D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 타 (U+D0C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 메 (U+BA54) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 시 (U+C2DC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 의 (U+C758) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 글 (U+AE00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 을 (U+C744) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 적 (U+C801) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 주 (U+C8FC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 색 (U+C0C9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 분 (U+BD84) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 낯 (U+B0AF) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 설 (U+C124) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 신 (U+C2E0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 도 (U+B3C4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 게 (U+AC8C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 말 (U+B9D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 되 (U+B418) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 걸 (U+AC78) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 까 (U+AE4C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 완 (U+C644) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 료 (U+B8CC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 서 (U+C11C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 해 (U+D574) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 보 (U+BCF4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 📖 (U+1F4D6) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+
+✅ PDF 변환 완료! 'MyDiary.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 39.33초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중...
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 503.29it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 폴 (U+D3F4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 더 (U+B354) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 목 (U+BAA9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 록 (U+B85D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 용 (U+C6A9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 스 (U+C2A4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 크 (U+D06C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 립 (U+B9BD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 트 (U+D2B8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 실 (U+C2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 행 (U+D589) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 할 (U+D560) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 있 (U+C788) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 름 (U+B984) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 포 (U+D3EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 된 (U+B41C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 우 (U+C6B0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 올 (U+C62C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 바 (U+BC14) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 검 (U+AC80) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 증 (U+C99D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 타 (U+D0C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 메 (U+BA54) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 시 (U+C2DC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 의 (U+C758) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 글 (U+AE00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 을 (U+C744) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 적 (U+C801) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 주 (U+C8FC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 색 (U+C0C9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 분 (U+BD84) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 낯 (U+B0AF) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 설 (U+C124) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 신 (U+C2E0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 도 (U+B3C4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 게 (U+AC8C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 말 (U+B9D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 되 (U+B418) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 걸 (U+AC78) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 까 (U+AE4C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 완 (U+C644) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 료 (U+B8CC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 서 (U+C11C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 해 (U+D574) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 보 (U+BCF4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 📖 (U+1F4D6) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+
+✅ PDF 변환 완료! 'MyDiary.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 46.03초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중...
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 257.59it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 여 (U+C5EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 폴 (U+D3F4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 더 (U+B354) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 목 (U+BAA9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 록 (U+B85D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 용 (U+C6A9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 스 (U+C2A4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 크 (U+D06C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 립 (U+B9BD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 트 (U+D2B8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 실 (U+C2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 행 (U+D589) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 할 (U+D560) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 수 (U+C218) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 있 (U+C788) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 름 (U+B984) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 포 (U+D3EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 함 (U+D568) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 된 (U+B41C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 우 (U+C6B0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 경 (U+ACBD) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 가 (U+AC00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 올 (U+C62C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 바 (U+BC14) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 검 (U+AC80) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 증 (U+C99D) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 타 (U+D0C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 로 (U+B85C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 한 (U+D55C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 러 (U+B7EC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 메 (U+BA54) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 시 (U+C2DC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 지 (U+C9C0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 오 (U+C624) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 늘 (U+B298) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 의 (U+C758) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 글 (U+AE00) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 을 (U+C744) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 적 (U+C801) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 어 (U+C5B4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 주 (U+C8FC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 색 (U+C0C9) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 른 (U+B978) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 분 (U+BD84) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 다 (U+B2E4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 낯 (U+B0AF) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 설 (U+C124) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 또 (U+B610) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 신 (U+C2E0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 기 (U+AE30) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 도 (U+B3C4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 하 (U+D558) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 고 (U+ACE0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 게 (U+AC8C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 정 (U+C815) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 말 (U+B9D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 되 (U+B418) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 는 (U+B294) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 걸 (U+AC78) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 까 (U+AE4C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 저 (U+C800) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 장 (U+C7A5) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 완 (U+C644) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 료 (U+B8CC) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 일 (U+C77C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 에 (U+C5D0) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 서 (U+C11C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 확 (U+D655) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 인 (U+C778) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 해 (U+D574) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 보 (U+BCF4) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 세 (U+C138) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 요 (U+C694) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 📖 (U+1F4D6) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 파 (U+D30C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 이 (U+C774) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 썬 (U+C36C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 꼬 (U+AF2C) in font [lmmono10-regular]:!
+[WARNING] Missing character: There is no 마 (U+B9C8) in font [lmmono10-regular]:!
+
+🖨️ PDF 확인해요...
+✅ PDF 변환 완료! 'MyDiary.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 34.79초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> Python 250923_upgradejournal.py
+🚀 PDF 변환 시작!
+📁 journals 폴더 확인 중...
+📄 .md 파일 불러오는 중...
+🧾 표지 생성 중...
+✅ 표지 생성 완료!
+📦 파일 병합 중...
+📄 병합 진행: 100%|██████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 911.31it/s]
+✅ 파일 병합 완료!
+🖨️ PDF 변환 중 (잠시 기다려주세요)...
+🖨️ PDF 확인해요...
+✅ PDF 변환 완료! 'MyDiary.pdf' 파일을 확인하세요.
+⏱️ 전체 실행 시간: 53.63초
+
+- 
+드디어 나름 성공!!!!!!!!!!! 야호야호야호
