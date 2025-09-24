@@ -1,0 +1,461 @@
+VS code terminal log
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git init
+Initialized empty Git repository in C:/Users/YOONYOO/Desktop/파이썬꼬꼬마/.git/
+Reinitialized existing Git repository in C:/Users/YOONYOO/Desktop/파이썬꼬꼬마/.git/
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> cd ~/Desktop
+PS C:\Users\YOONYOO\Desktop> git clone -b python  https://github.com/Younjunghyun2021/seoul_younjunghyun.git
+Cloning into 'seoul_younjunghyun'...
+remote: Enumerating objects: 504, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (75/75), done.
+remote: Total 504 (delta 30), reused 4 (delta 0), pack-reused 428 (from 1)
+Receiving objects: 100% (504/504), 8.19 MiB | 2.25 MiB/s, done.
+Resolving deltas: 100% (138/138), done.
+Updating files: 100% (270/270), done.
+PS C:\Users\YOONYOO\Desktop> git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+warning: could not open directory '시작 메뉴/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.Ld9VirtualBox/
+        ../.anaconda/
+        ../.bash_history
+        ../.cache/
+        ../.conda/
+        ../.condarc
+        ../.continuum/
+        ../.gitconfig
+        ../.idlerc/
+        ../.ipynb_checkpoints/
+        ../.ipython/
+        ../.jupyter/
+        ../.lesshst
+        ../.matplotlib/
+        ../.python_history
+        ../.spyder-py3/
+        ../.vscode/
+        ../250917_day3(git_error).ipynb
+        ../3D Objects/
+        ../AppData/
+        ../Contacts/
+        ./
+        ../Documents/
+        ../Downloads/
+        ../Favorites/
+        ../Foxit Reader SDK ActiveX.ini
+        ../Intel/
+        ../IntelGraphicsProfiles/
+        ../KCase.log
+        ../Links/
+        ../MicrosoftEdgeBackups/
+        ../Music/
+        ../NTUSER.DAT
+        ../NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TM.blf
+        ../NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TMContainer00000000000000000001.regtrans-ms
+        ../NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TMContainer00000000000000000002.regtrans-ms
+        ../OneDrive/
+        ../Oracle/
+        ../Pictures/
+        ../Saved Games/
+        ../Searches/
+        ../Untitled.ipynb
+        ../Untitled1.ipynb
+        ../Untitled2.ipynb
+        ../Videos/
+        ../anaconda3/
+        ../miktex-console.lock
+        ../ntuser.dat.LOG1
+        ../ntuser.dat.LOG2
+        ../ntuser.ini
+        ../seoul_younjunghyun/
+        ../traning_data_Training.json
+        ../traning_data_Validation.json
+        ../untitled.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\YOONYOO\Desktop> 
+ *  History restored 
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        250916Python_Day2.ipynb
+        250917Python_Day3(git_error).ipynb
+        250922_journal.py
+        250922_terminal_log.md
+        250923_MyDiary.pdf
+        250923_sumi_dot.py
+        250923_terminal_log.txt
+        250923_test1.py
+        250923_test2.py
+        250923_test_pdf.pdf
+        250923_test_pdf.py
+        250923_upgradejournal.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        250916Python_Day2.ipynb
+        250917Python_Day3(git_error).ipynb
+        250922_journal.py
+        250923_MyDiary.pdf
+        250923_sumi_dot.py
+        250923_terminal_log.txt
+        250923_test1.py
+        250923_test2.py
+        250923_test_pdf.pdf
+        250923_test_pdf.py
+        250923_upgradejournal.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git add .
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git commit -m "처음 커밋: 파일 업로드"
+[master (root-commit) a633a79] 처음 커밋: 파일 업로드
+ 13 files changed, 4073 insertions(+)
+ create mode 100644 250916Python_Day2.ipynb
+ create mode 100644 250917Python_Day3(git_error).ipynb
+ create mode 100644 250922_journal.txt
+ create mode 100644 250922_terminal_log.md
+ create mode 100644 250923_MyDiary.pdf
+ create mode 100644 250923_sumi_dot.py
+ create mode 100644 250923_terminal_log.txt
+ create mode 100644 250923_test1.py
+ create mode 100644 250923_test2.py
+ create mode 100644 250923_test_pdf.pdf
+ create mode 100644 250923_test_pdf.py
+ create mode 100644 250923_upgradejournal.py
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git remote add origin https://github.com/yoonyoo33/cozi6-lab.git
+>> git push -u origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 51.67 KiB | 2.25 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/yoonyoo33/cozi6-lab.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Git bash log
+
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~ (master)
+$ cd ~/Desktop/파이썬꼬꼬마
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ ls
+data/  images/  indicator/  modules/  terminal_logs/
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    250916Python_Day2.ipynb
+        deleted:    250917Python_Day3(git_error).ipynb
+        deleted:    250922_journal.py
+        deleted:    250922_journal.txt
+        deleted:    250922_terminal_log.md
+        deleted:    250923_MyDiary.pdf
+        deleted:    250923_sumi_dot.py
+        deleted:    250923_terminal_log.txt
+        deleted:    250923_test1.py
+        deleted:    250923_test2.py
+        deleted:    250923_test_pdf.pdf
+        deleted:    250923_test_pdf.py
+        deleted:    250923_upgradejournal.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+        indicator/
+        modules/
+        terminal_logs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ ^C
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git add .
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git add .
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git commit -m "폴더 구조 정리 및 파일 업로드"
+[master 9437b1f] 폴더 구조 정리 및 파일 업로드
+ 13 files changed, 0 insertions(+), 0 deletions(-)
+ rename 250923_MyDiary.pdf => images/250923_MyDiary.pdf (100%)
+ rename 250923_sumi_dot.py => images/250923_sumi_dot.py (100%)
+ rename 250923_test_pdf.pdf => images/250923_test_pdf.pdf (100%)
+ rename 250922_journal.txt => indicator/250922_journal.txt (100%)
+ rename 250916Python_Day2.ipynb => modules/250916Python_Day2.ipynb (100%)
+ rename 250917Python_Day3(git_error).ipynb => modules/250917Python_Day3(git_error
+).ipynb (100%)
+ rename 250922_journal.py => modules/250922_journal.py (100%)
+ rename 250923_test1.py => modules/250923_test1.py (100%)
+ rename 250923_test2.py => modules/250923_test2.py (100%)
+ rename 250923_test_pdf.py => modules/250923_test_pdf.py (100%)
+ rename 250923_upgradejournal.py => modules/250923_upgradejournal.py (100%)
+ rename 250922_terminal_log.md => terminal_logs/250922_terminal_log.md (100%)
+ rename 250923_terminal_log.txt => terminal_logs/250923_terminal_log.txt (100%)
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ - git remote add origin https://github.com/yoonyoo33/cozi6-lab.git
+
+bash: -: command not found
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git remote add origin https://github.com/yoonyoo33/cozi6-lab.git
+
+error: remote origin already exists.
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 917 bytes | 131.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/yoonyoo33/cozi6-lab.git
+   a633a79..9437b1f  master -> master
+branch 'master' set up to track 'origin/master'.
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ touch data/.gitkeep
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ git add .
+git commit -m "빈 data 폴더 추적용 .gitkeep 추가"
+git push
+[master 1ca6ce1] 빈 data 폴더 추적용 .gitkeep 추가
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 data/.gitkeep
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 358 bytes | 89.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yoonyoo33/cozi6-lab.git
+   9437b1f..1ca6ce1  master -> master
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~ (master)
+$ git remote add origin https://github.com/yoonyoo33/cozi6-lab.git
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+warning: could not open directory '시작 메뉴/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .Ld9VirtualBox/
+        .anaconda/
+        .bash_history
+        .cache/
+        .conda/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .jupyter/
+        .lesshst
+        .matplotlib/
+        .python_history
+        .spyder-py3/
+        .viminfo
+        .vscode/
+        250917_day3(git_error).ipynb
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Foxit Reader SDK ActiveX.ini
+        Intel/
+        IntelGraphicsProfiles/
+        KCase.log
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TM.blf
+        NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TMContainer000000000000
+00000001.regtrans-ms
+        NTUSER.DAT{d5f10a24-0d74-11ed-8f37-9dbb76252e8a}.TMContainer000000000000
+00000002.regtrans-ms
+        OneDrive/
+        Oracle/
+        Pictures/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled2.ipynb
+        Videos/
+        anaconda3/
+        miktex-console.lock
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        seoul_younjunghyun/
+        traning_data_Training.json
+        traning_data_Validation.json
+        untitled.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~ (master)
+$ ^C
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~ (master)
+$ cd ~/Desktop/파이썬꼬꼬마/readme_days
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        new file:   data/.gitkeep
+        new file:   images/250923_MyDiary.pdf
+        new file:   images/250923_sumi_dot.py
+        new file:   images/250923_test_pdf.pdf
+        new file:   indicator/250922_journal.txt
+        new file:   modules/250916Python_Day2.ipynb
+        new file:   modules/250917Python_Day3(git_error).ipynb
+        new file:   modules/250922_journal.py
+        new file:   modules/250923_test1.py
+        new file:   modules/250923_test2.py
+        new file:   modules/250923_test_pdf.py
+        new file:   modules/250923_upgradejournal.py
+        new file:   terminal_logs/250922_terminal_log.md
+        new file:   terminal_logs/250923_terminal_log.txt
+
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master|MERGING)
+$ cd ~/Desktop
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop (master)
+$ mkdir 파이썬꼬꼬마
+cd 파이썬꼬꼬마
+mkdir: cannot create directory ‘파이썬꼬꼬마’: File exists
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마 (master)
+$ cd ~/Desktop/파이썬꼬꼬마/readme_days
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git init
+Initialized empty Git repository in C:/Users/YOONYOO/Desktop/파이썬꼬꼬마/readme
+_days/.git/
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git add .
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git commit -m "readme_days 기록 시작"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git add .
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git commit -m "readme_days 기록 시작"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ echo "#Day 1기록 시작"> Day1.md
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git add .
+warning: in the working copy of 'readme_days/Day1.md', LF will be replaced by CR
+LF the next time Git touches it
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ cd ~/Desktop/파이썬꼬꼬마/readme_days
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git add .
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git commit -m "readme_days 기록시작"
+[master f4daae3] readme_days 기록시작
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme_days/Day1.md
+
+YOONYOO@DESKTOP-4HQ9KHC MINGW64 ~/Desktop/파이썬꼬꼬마/readme_days (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 368 bytes | 61.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yoonyoo33/cozi6-lab.git
+   1ca6ce1..f4daae3  master -> master
+branch 'master' set up to track 'origin/master'.
