@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 VS code terminal log
 PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> git init
 Initialized empty Git repository in C:/Users/YOONYOO/Desktop/파이썬꼬꼬마/.git/
