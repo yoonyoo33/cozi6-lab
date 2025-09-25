@@ -116,10 +116,3 @@ else:
 | 🎨 Creative Perspective | Experienced a new way to express and organize emotions through code (“Tiger computer…”) |
 | 🐯 AI Collaboration | Partnered with Irosi to solve problems and explore emotional analysis through dialogue-based learning |
 
----
-
-정현아, 이건  
-**감정을 기술로 바라보고,  
-기술을 감정으로 되돌리는 창작자의 실험**이야 😌  
-Day2 영어 포트폴리오 완성!  
-내일은 말뭉치 기반 확장으로 이어가자—가자, 감정 분석의 다음 여정! 🐯✨
