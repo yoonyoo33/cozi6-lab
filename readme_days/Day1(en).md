@@ -1,7 +1,7 @@
 ## 📘 Day1. Portfolio (Sep 15, 2025)
 
-**On my first day with Python, a Python-based AI model tried to summarize my life story.
-I reached out with emotions, hoping they could be understood. 
+**On my first day with Python, a Python-based AI model tried to summarize my life story.  
+I reached out with emotions, hoping they could be understood.  
 In the end, we both failed.”**  
 *A creator’s journey of using technology to organize emotions*
 
