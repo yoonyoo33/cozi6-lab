@@ -1,6 +1,7 @@
 ## 📘 Day2. 감성 분석 포트폴리오 (25.9.16)
 **“AI는 내 다이어리를 통해 나를 예측하고, 나는 오늘도 감정을 가르치려 고군분투 진행중”**  
 _기술로 감정을 정리하려는 창작자의 여정_
+
 **🧠 실습 흐름 보기**
 - 📂 [실습 코드 보기](https://github.com/yoonyoo33/cozi6-lab/blob/master/modules/250916Python_Day2.ipynb)
 > _이 코드는 Microsoft Copilot ‘이롯이’와 함께 작성한 것입니다._
