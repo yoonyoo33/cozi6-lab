@@ -66,7 +66,7 @@ Through this experience, Junghyun developed a clear understanding of Git:
 
 **💡 Key takeaway:** Gained practical comprehension of Git workflows beyond memorizing commands, able to resolve conflicts independently
 
-
+---
 
 ### 📚 Learning Outcomes
 
