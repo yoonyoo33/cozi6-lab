@@ -13,7 +13,7 @@ _but all activities below are based on Junghyun’s manual recovery after the Co
 ---
 
 ### 🧠 Workflow Overview
-
+- 📂 [View Code](https://github.com/yoonyoo33/cozi6-lab/blob/master/modules/250917Python_Day3(git_error).ipynb)
 - GitHub sync triggered a merge conflict
 - `readme.md` file contents got scrambled, commit history tangled
 - Copilot chat history disappeared, code recovery impossible
