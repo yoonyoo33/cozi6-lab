@@ -104,6 +104,3 @@ print(f"⏱️ Total execution time: {end - start:.2f} seconds")
 | `.exe` Packaging | Converted Python GUI to distributable `.exe` |
 | Debugging | Solved path and encoding issues |
 | UX Design | Designed a one-click merge experience |
-
----
-]\
