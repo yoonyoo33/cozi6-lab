@@ -1,0 +1,562 @@
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python 250926_emotiontraning.py
+C:\Users\YOONYOO\anaconda3\python.exe: can't open file 'C:\\Users\\YOONYOO\\Desktop\\파이썬꼬꼬마\\250926_emotiontraning.py': [Errno 2] No such file or directory   
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> ^C
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS0 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+''}}}
+실행 시간: 0.96초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py      
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_emotiontraining.py", line 6, 
+in <module>
+    from konlpy.tag import Ok
+ModuleNotFoundError: No module named 'konlpy'
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py      
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_emotiontraining.py", line 6, 
+in <module>
+    from konlpy.tag import Okt
+ModuleNotFoundError: No module named 'konlpy'
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> pip install konlpy
+Collecting konlpy
+  Downloading konlpy-0.6.0-py2.py3-none-any.whl.metadata (1.9 kB)
+Collecting JPype1>=0.7.0 (from konlpy)
+packages (from konlpy) (5.3.0)
+Requirement already satisfied: numpy>=1.6 in c:\users\yoonyoo\anaconda3\lib\site-packages (from konlpy) (2.1.3)
+Requirement already satisfied: packaging in c:\users\yoonyoo\anaconda3\lib\site-packages (from JPype1>=0.7.0->konlpy) (24.2)
+Downloading konlpy-0.6.0-py2.py3-none-any.whl (19.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.4/19.4 MB 1.7 MB/s eta 0:00:00     
+Downloading jpype1-1.6.0-cp313-cp313-win_amd64.whl (355 kB)
+Installing collected packages: JPype1, konlpy
+Successfully installed JPype1-1.6.0 konlpy-0.6.0
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마>
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+--- 항목 3 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS01': '회사 동료 때문에 스트레스를 많이 받는 것 같아요. 문제 해결을 위해 어떤 노력을
+ 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+''}}}
+긍정 문장 수: 5748
+부정 문장 수: 55734
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_emotiontraining.py", line 50, in <module>
+    okt = Okt()
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\konlpy\tag\_okt.py", line 51, in __init__
+    jvm.init_jvm(jvmpath, max_heap_size)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\konlpy\jvm.py", line 55, in init_jvm
+    jvmpath = jvmpath or jpype.getDefaultJVMPath()
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\jpype\_jvmfinder.py", line 70, in getDefaultJVMPath
+    return finder.get_jvm_path()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\jpype\_jvmfinder.py", line 204, in get_jvm_path
+    raise JVMNotFoundException("No JVM shared library file ({0}) "
+    ...<2 lines>...
+                               .format(self._libfile))
+jpype._jvmfinder.JVMNotFoundException: No JVM shared library file (jvm.dll) found. Try setting up the JAVA_HOME environment variable properly.
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> java -version
+java : 'java' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이
+름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바 
+른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:1
++ java -version
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (java:String) [], CommandNotFoundE  
+   xception
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> java -version
+java version "25" 2025-09-16 LTS
+Java(TM) SE Runtime Environment (build 25+37-LTS-3491)
+Java HotSpot(TM) 64-Bit Server VM (build 25+37-LTS-3491, mixed mode, sharing)
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+--- 항목 3 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS01': '회사 동료 때문에 스트레스를 많이 받는 것 같아요. 문제 해결을 위해 어떤 노력을
+ 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+''}}}
+부정 문장 수: 55734
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> set JAVA_TOOL_OPTIONS=--enable-native-access=ALL-UNNAMED
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_emotiontraining.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+--- 항목 3 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS01': '회사 동료 때문에 스트레스를 많이 받는 것 같아요. 문제 해결을 위해 어떤 노력을
+ 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+실행 시간: 200.30초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_check_emotion_data.py", line 
+4
+    from 250926_emotiontraining import positive_words, negative_words
+               ^
+SyntaxError: invalid decimal literal
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+--- 항목 3 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS01': '회사 동료 때문에 스트레스를 많이 받는 것 같아요. 문제 해결을 위해 어떤 노력을
+ 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+''}}}
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+실행 시간: 106.47초
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_check_emotion_data.py", line 
+4, in <module>
+    from emotiontraining_250926.py import positive_words, negative_words
+ModuleNotFoundError: No module named 'emotiontraining_250926.py'; 'emotiontraining_250926' is not a package
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+파일 열기 시도 중!
+파일 불러오기 성공!
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+전체 항목 수: 51628
+
+--- 항목 1 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00053'}, 'content': {'HS01': '일은 왜 해도 해도 
+끝이 없을까? 화가 난다.', 'SS01': '많이 힘드시겠어요. 주위에 의논할 상대가 있나요?', 'HS02': '그냥 내가 해결하는 게 나아. 남들한테 부담 주고 싶지도 않고.', 'SS02': 
+'혼자 해결하기로 했군요. 혼자서 해결하기 힘들면 주위에 의논할 사람을 찾아보세요. ', 'HS03': '', 'SS03': ''}}}
+
+--- 항목 2 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00049'}, 'content': {'HS01': '이번 달에 또 급여 
+가 깎였어! 물가는 오르는데 월급만 자꾸 깎이니까 너무 화가 나.', 'SS01': '급여가 줄
+어 속상하시겠어요. 월급이 줄어든 것을 어떻게 보완하실 건가요?', 'HS02': '최대한 지
+출을 억제해야겠어. 월급이 줄어들었으니 고정지출을 줄일 수밖에 없을 것 같아.', 'SS02': '월급이 줄어든 만큼 소비를 줄일 계획이군요.', 'HS03': '', 'SS03': ''}}}       
+
+--- 항목 3 ---
+{'profile': {'persona-id': 'Pro_05349', 'persona': {'persona-id': 'A02_G02_C01', 'human': ['A02', 'G02'], 'computer': ['C01']}, 'emotion': {'emotion-id': 'S06_D02_E18', 'type': 'E18', 'situation': ['S06', 'D02']}}, 'talk': {'id': {'profile-id': 'Pro_05349', 'talk-id': 'Pro_05349_00077'}, 'content': {'HS01': '회사에 신입이 들어
+왔는데 말투가 거슬려. 그런 애를 매일 봐야 한다고 생각하니까 스트레스 받아. ', 'SS01': '회사 동료 때문에 스트레스를 많이 받는 것 같아요. 문제 해결을 위해 어떤 노력을
+ 하면 좋을까요?', 'HS02': '잘 안 맞는 사람이랑 억지로 잘 지내는 것보단 조금은 거리
+를 두고 예의를 갖춰서 대하는 게 덜 스트레스받을 것 같아.', 'SS02': '스트레스받지  
+않기 위해선 인간관계에 있어 약간의 거리를 두는 게 좋겠군요.', 'HS03': '', 'SS03': 
+''}}}
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+실행 시간: 196.83초
+False
+긍정 단어 예시: ['나', '화가', '내', '것', '친구', '수', '생각', '말', '안', '기분
+']
+부정 단어 예시: ['것', '수', '내', '친구', '나', '생각', '마음', '안', '상황', '더
+']
+긍정 단어 수: 100
+부정 단어 수: 100
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 45800 (\N{HANGUL SYLLABLE DAN}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 50612 (\N{HANGUL SYLLABLE EO}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 44048 (\N{HANGUL SYLLABLE GAM}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 51221 (\N{HANGUL SYLLABLE JEONG}) missing from font(s) DejaVu Sans.
+  func(*args)
+\N{HANGUL SYLLABLE BUN}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 54252 (\N{HANGUL SYLLABLE PO}) missing from font(s) DejaVu Sans.
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 44557 (\N{HANGUL SYLLABLE GEUNG}) missing from font(s) DejaVu Sans.
+  func(*args)
+C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py:862: UserWarning: Glyph 48512 (  func(*args)
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\emotiontraining_250926.py", line 4  
+    import json  # JSON 파일을 다루는 도구를 불러와요!
+SyntaxError: invalid non-printable character U+00A0
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\emotiontraining_250926.py", line 4  
+    import json  # JSON 파일을 다루는 도구를 불러와요!
+                ^
+SyntaxError: invalid non-printable character U+00A0
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\emotiontraining_250926.py", line 10 
+        print("파일 열기 시도 중!")
+    ^
+SyntaxError: invalid non-printable character U+00A0
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+✅ 감정 키워드 추출 및 저장 성공: emotion_keywords.json
+실행 시간: 276.55초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['하다', '있다', '화가', '좋다', '어떻다', '같다', '않다', '없다', '되다', '보다']
+부정 단어 예시: ['하다', '있다', '좋다', '어떻다', '같다', '슬프다', '되다', '없다
+', '않다', '보다']
+긍정 단어 수: 100
+부정 단어 수: 100
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_check_emotion_data.py", line 
+57, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\backend_bases.py",    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 544, in start_main_loop
+    first_manager.window.mainloop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['화가', '좋다', '기분', '날다', '자다', '상황', '힘들다', '그렇다
+', '받다', '때문']
+부정 단어 예시: ['좋다', '슬프다', '힘들다', '상황', '싶다', '자다', '지금', '기분
+', '바라다', '그렇다']
+긍정 단어 수: 100
+부정 단어 수: 100
+실행 시간: 56.93초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotion_keywords.json
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+✅ 감정 키워드 추출 및 저장 성공: emotion_keywords.json
+실행 시간: 444.87초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['화가', '자신', '나다', '들다', '속상하다', '대화', '남편', '스럽
+다', '정말', '해결']
+부정 단어 예시: ['슬프다', '들다', '속상하다', '아내', '부모님', '남편', '방법', '정말', '대화', '위해']
+긍정 단어 수: 100
+부정 단어 수: 100
+실행 시간: 63.28초
+
+!!!!!!!!!!!!!!이제 TF-IDF를 이용할 것!!!!!!!!!!!!!!!!!!!!!!!!
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+✅ 감정 키워드 추출 및 저장 성공: emotion_keywords.json
+실행 시간: 276.55초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['하다', '있다', '화가', '좋다', '어떻다', '같다', '않다', '없다', '되다', '보다']
+부정 단어 예시: ['하다', '있다', '좋다', '어떻다', '같다', '슬프다', '되다', '없다
+', '않다', '보다']
+긍정 단어 수: 100
+부정 단어 수: 100
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_check_emotion_data.py", line 
+57, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\backend_bases.py",    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 544, in start_main_loop
+    first_manager.window.mainloop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['화가', '좋다', '기분', '날다', '자다', '상황', '힘들다', '그렇다
+', '받다', '때문']
+부정 단어 예시: ['좋다', '슬프다', '힘들다', '상황', '싶다', '자다', '지금', '기분
+', '바라다', '그렇다']
+긍정 단어 수: 100
+부정 단어 수: 100
+실행 시간: 56.93초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotion_keywords.json
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)   
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in 
+this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+실행 시간: 444.87초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py   
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['화가', '자신', '나다', '들다', '속상하다', '대화', '남편', '스럽
+다', '정말', '해결']
+부정 단어 예시: ['슬프다', '들다', '속상하다', '아내', '부모님', '남편', '방법', '정말', '대화', '위해']
+긍정 단어 수: 100
+부정 단어 수: 100
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> pip install scikit-learn
+Requirement already satisfied: scikit-learn in c:\users\yoonyoo\anaconda3\lib\site-packages (1.6.1)
+Requirement already satisfied: numpy>=1.19.5 in c:\users\yoonyoo\anaconda3\lib\site-packages (from scikit-learn) (2.1.3)
+Requirement already satisfied: scipy>=1.6.0 in c:\users\yoonyoo\anaconda3\lib\site-packages (from scikit-learn) (1.15.3)
+Requirement already satisfied: joblib>=1.2.0 in c:\users\yoonyoo\anaconda3\lib\site-packages (from scikit-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in c:\users\yoonyoo\anaconda3\lib\site-packages (from scikit-learn) (3.5.0)
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py      
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module    
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled  
+
+C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\feature_extraction\text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+  warnings.warn(
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\emotiontraining_250926.py", line 72, in <module>   
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\feature_extraction\text.py", line 2104, in fit_transform
+    X = super().fit_transform(raw_documents)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\base.py", line 1389, in wrapper     
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\feature_extraction\text.py", line 1386, in fit_transform
+    raise ValueError("max_df corresponds to < documents than min_df")
+ValueError: max_df corresponds to < documents than min_df
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> pip install numpy
+Requirement already satisfied: numpy in c:\users\yoonyoo\anaconda3\lib\site-packages (2.1.3)     
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module    
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled  
+
+C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\feature_extraction\text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+  warnings.warn(
+
+✅ 감정 키워드 추출 및 저장 성공: emotion_keywords.json
+실행 시간: 271.57초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: [' ', '다', '하', '가', '화', '어', '자', '나', '있', '이']
+부정 단어 예시: [' ', '다', '하', '어', '있', '지', '이', '나', '자', '아']
+긍정 단어 수: 100
+부정 단어 수: 100
+Traceback (most recent call last):
+  File "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\250926_check_emotion_data.py", line 57, in <module>    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 614, in show    
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 544, in start_main_loop
+    first_manager.window.mainloop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\YOONYOO\anaconda3\Lib\tkinter\__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\emotiontraining_250926.py
+파일 열기 시도 중!
+파일 불러오기 성공!
+전체 항목 수: 51628
+긍정 문장 수: 5748
+부정 문장 수: 55734
+WARNING: java.lang.System::load has been called by org.jpype.JPypeContext in an unnamed module (file:/C:/Users/YOONYOO/anaconda3/Lib/site-packages/org.jpype.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module    
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled  
+
+C:\Users\YOONYOO\anaconda3\Lib\site-packages\sklearn\feature_extraction\text.py:517: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+  warnings.warn(
+
+✅ 감정 키워드 추출 및 저장 성공: emotion_keywords.json
+실행 시간: 354.93초
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python .\250926_check_emotion_data.py
+✅ 감정 키워드 데이터 불러오기 성공!
+output.txt 존재 여부: False
+긍정 단어 예시: ['하다', '있다', '화가', '좋다', '어떻다', '같다', '되다', '않다', '없다', '기분']
+부정 단어 예시: ['하다', '있다', '좋다', '어떻다', '슬프다', '같다', '되다', '없다', '않다', '보 
+다']
+긍정 단어 수: 100
+부정 단어 수: 100
+

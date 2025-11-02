@@ -1,0 +1,79 @@
+251102  terminal log
+PS C:\Users\YOONYOO> cd "C:\Users\YOONYOO\Desktop\파이썬꼬꼬마"          
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python merge_mdfile251102.md
+C:\Users\YOONYOO\anaconda3\python.exe: can't open file 'C:\\Users\\YOONYOO\\Desktop\\파이썬꼬꼬마\\merge_mdfile251102.md': [Errno 2] No such file or directory
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> python merge_mdfile251102.py
+✅ 병합 완료! 결과 파일: C:\Users\YOONYOO\Desktop\논문\Bern파이썬용_09월\B_Sep_dialogue.md
+⏱️ 전체 실행 시간: 0.93초
+
+-
+251102 terminal log 2
+
+PS C:\Users\YOONYOO\Desktop\파이썬꼬꼬마> pyinstaller --onefile --windowed gui_merge_mdfile251102.py
+9259 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+9261 INFO: Python: 3.13.5 (conda)
+9386 INFO: Platform: Windows-10-10.0.19045-SP0
+9388 INFO: Python environment: C:\Users\YOONYOO\anaconda3
+9390 INFO: wrote C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\gui_merge_mdfile251102.spec
+9405 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\YOONYOO\\anaconda3\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\YOONYOO\\anaconda3\\python313.zip',
+ 'C:\\Users\\YOONYOO\\anaconda3\\DLLs',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib',
+ 'C:\\Users\\YOONYOO\\anaconda3',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\win32',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\YOONYOO\\Desktop\\파이썬꼬꼬마']
+19948 INFO: checking Analysis
+19949 INFO: Building Analysis because Analysis-00.toc is non existent
+19949 INFO: Looking for Python shared library...
+19950 INFO: Using Python shared library: C:\Users\YOONYOO\anaconda3\python313.dll
+19950 INFO: Running Analysis Analysis-00.toc
+19951 INFO: Target bytecode optimization level: 0
+19951 INFO: Initializing module dependency graph...
+19953 INFO: Initializing module graph hook caches...
+20011 INFO: Analyzing modules for base_library.zip ...
+48242 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+84040 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+98846 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+112153 INFO: Caching module dependency graph...
+112632 INFO: Analyzing C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\gui_merge_mdfile251102.py
+112650 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+112652 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+114377 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+114649 INFO: Processing module hooks (post-graph stage)...
+114671 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks'
+114734 INFO: Performing binary vs. data reclassification (925 entries)
+116662 INFO: Looking for ctypes DLLs
+116694 INFO: Analyzing run-time hooks ...
+116708 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+116729 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\YOONYOO\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+116916 INFO: Creating base_library.zip...
+117048 INFO: Looking for dynamic libraries
+117684 INFO: Extra DLL search directories (AddDllDirectory): []
+117686 INFO: Extra DLL search directories (PATH): []
+120745 INFO: Warnings written to C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\build\gui_merge_mdfile251102\warn-gui_merge_mdfile251102.txt
+120889 INFO: Graph cross-reference written to C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\build\gui_merge_mdfile251102\xref-gui_merge_mdfile251102.html
+121016 INFO: checking PYZ
+121018 INFO: Building PYZ because PYZ-00.toc is non existent
+121019 INFO: Building PYZ (ZlibArchive) C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\build\gui_merge_mdfile251102\PYZ-00.pyz
+121314 INFO: Building PYZ (ZlibArchive) C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\build\gui_merge_mdfile251102\PYZ-00.pyz completed successfully.
+121390 INFO: checking PKG
+121391 INFO: Building PKG because PKG-00.toc is non existent
+121391 INFO: Building PKG (CArchive) gui_merge_mdfile251102.pkg
+129385 INFO: Building PKG (CArchive) gui_merge_mdfile251102.pkg completed successfully.
+129429 INFO: Bootloader C:\Users\YOONYOO\anaconda3\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+129430 INFO: checking EXE
+129430 INFO: Building EXE because EXE-00.toc is non existent
+129431 INFO: Building EXE from EXE-00.toc
+129431 INFO: Copying bootloader EXE to C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\dist\gui_merge_mdfile251102.exe
+129542 INFO: Copying icon to EXE
+129631 INFO: Copying 0 resources to EXE
+129631 INFO: Embedding manifest in EXE
+129649 INFO: Appending PKG archive to EXE
+132641 INFO: Fixing EXE headers
+135437 INFO: Building EXE from EXE-00.toc completed successfully.
+135582 INFO: Build complete! The results are available in: C:\Users\YOONYOO\Desktop\파이썬꼬꼬마\dist
