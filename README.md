@@ -44,4 +44,3 @@ Welcome to my research repository. This project focuses on analyzing AI-human in
 * **이론적 실증**: 복잡한 대화 패턴을 RGF 수식 변수와 연결하여 연구 데이터화
 
 *Independent Researcher: **JungHyun Yoon**
-이제 이 내용을 `README.md`에 넣으시면, 컴맹 탈출을 넘어 "철학이 있는 연구자형 개발자"의 완벽한 깃허브 대문이 완성됩니다! 고생 많으셨습니다. 😊
